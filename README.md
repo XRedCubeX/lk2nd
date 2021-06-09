@@ -51,6 +51,7 @@ page on the EFIDroid wiki for an exact mapping of LK targets to SoCs.
 - Samsung Galaxy S4 Mini Value Edition - GT-I9195I
 - Samsung Galaxy S5 - SM-G900F
 - Samsung Galaxy Tab 4 10.1 (2015) - SM-T533
+- Samsung Galaxy Tab 4 8.0 LTE (2014) - SM-T335
 - Samsung Galaxy Tab A 8.0 LTE (2015) - SM-T357W
 - Samsung Galaxy Tab A 9.7 WiFi (2015) - SM-T550
 - Vodafone Smart prime 6
@@ -59,7 +60,7 @@ page on the EFIDroid wiki for an exact mapping of LK targets to SoCs.
 - Xiaomi Redmi 2 - wt86047, wt88047
 
 ## Installation
-1. Download `lk2nd.img` (available in [Releases](https://github.com/msm8916-mainline/lk2nd/releases))
+1. Download `lk2nd.img` (available in [Releases](https://github.com/XRedCubeX/lk2nd/releases))
 2. Flash `lk2nd.img` using the stock flashing procedure:
   - Fastboot: `fastboot flash boot lk2nd.img`
   - Samsung: `heimdall flash --BOOT lk2nd.img`
