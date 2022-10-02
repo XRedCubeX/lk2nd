@@ -1,0 +1,17 @@
+// SPDX-License-Identifier: GPL-2.0-only
+
+/dts-v1/;
+
+#include <skeleton.dtsi>
+#include <lk2nd.h>
+
+/ {
+	// This is used by the bootloader to find the correct DTB
+	qcom,msm-id = <0xC808FF01 4 0x10001>;
+	model = "Samsung Galaxy Tab 4 8.0 LTE Rev 4";
+	compatible = "qcom,msm8226-mtp", "qcom,msm8226", "qcom,mtp", "lk2nd,device";
+	lk2nd,keys =
+	<KEY_VOLUMEDOWN 107 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>,
+	<KEY_VOLUMEUP   106 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>,
+	<KEY_HOME		108	(GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
+};
